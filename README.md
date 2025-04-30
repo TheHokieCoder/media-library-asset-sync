@@ -117,3 +117,11 @@ data
 │       └── …
 └── …
 ```
+
+### Movies
+
+Under `data/assets/movies`:
+- each movie should be in its own folder with a name of `[TITLE] ([YEAR]) {tmdb-[TMDB ID]}`, where:
+  - `[TITLE]` is the title of the movie
+  - `[YEAR]` is the year in which the movie was released
+  - `[TMDB ID]` is the identifier for the movie from [The Movie Database (TMDB)](https://themoviedb.org/) (can be found in the URL for the movie's page)
